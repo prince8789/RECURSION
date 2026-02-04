@@ -41,6 +41,12 @@ public class HashMapMethod {
         // get all entries in the Hashmap
         System.out.println(mp.entrySet());
 
+        //traversing all the entries of Hashmap
+        for(String key : mp.keySet()){
+            System.out.printf("age of %s is %d\n",key , mp.get(key));
+
+        }
+
 
 
     }
